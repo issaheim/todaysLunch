@@ -1,0 +1,54 @@
+body{
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  background: repeating-linear-gradient(
+    45deg,
+    #c03291,
+    #c03291 20px,
+    #dd3c7f 20px,
+    #dd3c7f 40px
+  );
+}
+
+
+main{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+h1, h2{
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+h1{
+  font-size: 7rem;
+  text-shadow: chocolate 5px 5px 0px;
+  text-align: center;
+  margin-top: 0;
+
+  color: rgb(243, 129, 23);
+}
+
+h2{
+font-size: 3rem;
+margin-bottom: 0;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+#menu{
+  background-color: blueviolet;
+  box-shadow: rgb(109, 34, 180) 10px 10px 0px ;
+  padding: 2rem;
+  width: 400px;
+}
